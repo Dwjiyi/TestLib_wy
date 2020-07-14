@@ -1,0 +1,6 @@
+framework module TestLib_wy {
+  umbrella header "TestLib_wy-umbrella.h"
+
+  export *
+  module * { export * }
+}

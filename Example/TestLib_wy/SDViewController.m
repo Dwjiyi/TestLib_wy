@@ -7,6 +7,7 @@
 //
 
 #import "SDViewController.h"
+#import <TestLib_wy/DWTestManager.h>
 
 @interface SDViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[[DWTestManager alloc] init] testLog];
 }
 
 - (void)didReceiveMemoryWarning
