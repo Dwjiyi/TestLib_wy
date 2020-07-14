@@ -13,6 +13,10 @@
 
 - (void)testLog {
     NSLog(@"测试一下是否成功调用");
+    
+    NSLog(@"升级0.2.0");
 }
+
+
 
 @end
